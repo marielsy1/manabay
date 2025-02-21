@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulacan | Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: #f9f9f9;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 50px;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #fc8bb190;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+        .hero {
+            position: relative;
+            text-align: center;
+            color: black;
+        }
+        .hero img {
+            width: 100%;
+            height: auto;
+        }
+        .hero h1 {
+    font-family: 'Playfair Display', serif;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px 20px;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+        .explore {
+            padding: 50px;
+            background: white;
+        }
+        .explore h2 {
+            font-size: 28px;
+            color: #333;
+        }
+        .explore-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            max-width: 1000px;
+            margin: auto;
+            padding: 30px;
+        }
+        .explore-item {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .explore-item img {
+            width: 80%;
+            max-width: 300px;
+            border-radius: 10px;
+            display: block;
+            margin: auto;
+        }
+        .explore-item p {
+            font-size: 14px;
+            color: #666;
+        }
+        .explore-btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background: #ff6b81;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .explore-btn:hover {
+            background: #e05670;
+        }
+        footer {
+            background: white;
+            padding: 10px;
+            margin-top: 30px;
+            box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="bulacan-logo.png" alt="Bulacan Seal" height="60">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="tourism.html">Tourism</a></li>
+                <li><a href="municipality.html">Municipality</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <h1>"Discover Bulacan: A Place of Heritage and Progress"</h1>
+        <img src="bulacan-overview.jpg" alt="Scenic view of Bulacan">
+    </section>
+
+    <section id="explore" class="explore">
+        <h2>Explore Bulacan</h2>
+        <p>Discover the rich culture, historical sites, and breathtaking landscapes of Bulacan.</p>
+        
+        <div class="explore-container">
+            <div class="explore-item">
+                <img src="barasoain-church.jpg" alt="Barasoain Church">
+                <h3>Barasoain Church</h3>
+                <p>A historical church that played a key role in the Philippines' independence.</p>
+            </div>
+
+            <div class="explore-item">
+                <img src="biak-na-bato.jpg" alt="Biak-na-Bato">
+                <h3>Biak-na-Bato National Park</h3>
+                <p>Perfect for nature lovers, featuring caves, hiking trails, and a historical past.</p>
+            </div>
+
+           
+        </div>
+
+        <a href="tourism.html" class="explore-btn">View More</a>
+    </section>
+
+    <section id="about">
+        <h2>About Bulacan</h2>
+        <p>Learn about the rich history and culture of Bulacan.</p>
+    </section>
+    
+    <section id="tourism">
+        <h2>Top Destinations</h2>
+        <p>Explore the best attractions in Bulacan.</p>
+    </section>
+    
+    <section id="municipality">
+        <h2>Municipality</h2>
+        <p>Explore the municipalities of Bulacan and their unique offerings.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch with us for inquiries.</p>
+    </section>
+    
+    <footer>
+        <p>&copy;  2024 - 2025 ITP4 | All Right Reserved</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulacan | Municipality</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: #f9f9f9;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 50px;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #fc8bb190;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+        /* Municipality Section */
+        .municipality {
+            padding: 50px;
+            background: white;
+        }
+        .municipality h1 {
+            font-size: 28px;
+            color: #333;
+        }
+        .municipality p {
+            max-width: 800px;
+            margin: 20px auto;
+            line-height: 1.6;
+            color: #666;
+        }
+        .municipality-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 1000px;
+            margin: 30px auto;
+        }
+        .municipality-item {
+            background: #f3f3f3;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .municipality-item img {
+            width: 100%;
+            border-radius: 10px;
+            height: 150px;
+            object-fit: cover;
+        }
+        .municipality-item h3 {
+            color: #444;
+            margin-top: 10px;
+        }
+
+        footer {
+            background: white;
+            padding: 10px;
+            margin-top: 30px;
+            box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="bulacan-logo.png" alt="Bulacan Seal" height="60">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="tourism.html">Tourism</a></li>
+                <li><a href="municipality.html">Municipality</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="municipality">
+        <h1>Municipalities of Bulacan</h1>
+        <p>Bulacan consists of various municipalities, each with its own rich history, culture, and attractions. Here are some notable municipalities in the province:</p>
+
+        <div class="municipality-list">
+            <div class="municipality-item">
+                <img src="malolos.jpg" alt="Malolos">
+                <h3>Malolos</h3>
+                <p>The capital city of Bulacan and home to the historic Barasoain Church.</p>
+            </div>
+            <div class="municipality-item">
+                <img src="meycauayan.jpg" alt="Meycauayan">
+                <h3>Meycauayan</h3>
+                <p>Known as an industrial hub and famous for its jewelry-making industry.</p>
+            </div>
+            <div class="municipality-item">
+                <img src="baliuag.jpg" alt="Baliuag">
+                <h3>Baliuag</h3>
+                <p>Famous for its Semana Santa procession and local crafts.</p>
+            </div>
+            <div class="municipality-item">
+                <img src="pulilan.jpg" alt="Pulilan">
+                <h3>Pulilan</h3>
+                <p>Home of the famous Carabao Festival celebrated every May.</p>
+            </div>
+            <div class="municipality-item">
+                <img src="san-miguel.jpg" alt="San Miguel">
+                <h3>San Miguel</h3>
+                <p>Known for Biak-na-Bato National Park, a historical and natural site.</p>
+            </div>
+            <div class="municipality-item">
+                <img src="marilao.jpg" alt="Marilao">
+                <h3>Marilao</h3>
+                <p>A rapidly growing urban municipality known for St. Michael the Archangel Parish.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy;  2024 - 2025 ITP4 | All Right Reserved</p>
+    </footer>
+</body>
+</html>
